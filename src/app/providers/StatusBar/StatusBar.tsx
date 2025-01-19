@@ -1,5 +1,5 @@
 import React, { FC, ReactNode } from 'react';
-import { SafeAreaView, View, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import {moderateScale} from 'react-native-size-matters';
 
@@ -25,10 +25,10 @@ const styles = StyleSheet.create({
         bottom: 0,
         left: 0,
         right: 0,
+        backgroundColor: 'white',
     },
     background: {
         position: 'absolute',
-        zIndex: -1,
         height: '50%',
         top: 0,
         left: 0,
